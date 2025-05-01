@@ -1,0 +1,17 @@
+.legend {
+  display: grid;
+  /* ajusta el ancho mínimo de cada “celda” según necesites */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;                  /* espacio entre filas y columnas */
+  margin-bottom: 2.5rem;      /* equivalente a mb-10 */
+  font-size: 0.875rem;        /* text-sm */
+  color: #4B5563;             /* text-gray-600 */
+}
+
+.legend .item {
+  display: flex;
+  align-items: center;
+}
+.legend .item span:first-child {
+  margin-right: 0.5rem;
+}
